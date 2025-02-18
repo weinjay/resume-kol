@@ -1,0 +1,100 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111; /* Dark background */
+  color: #ddd; /* Light gray text */
+}
+
+.container {
+  width: 60%;
+  margin: 50px auto;
+  background: #222; /* Dark gray */
+  padding: 20px;
+  box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.5); /* Gold glow */
+  border-radius: 10px;
+  position: relative;
+  border: 2px solid #FFD700; /* Gold border */
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #000; /* Black */
+  color: #FFD700; /* Gold */
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  box-shadow: 0 0 20px #FFD700; /* Gold glow */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Impact', sans-serif; /* Bold street-style font */
+}
+
+/* Profile Picture */
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #FFD700; /* Gold outline */
+  margin-right: 20px;
+}
+
+/* Sections */
+section {
+  margin: 20px 0;
+  padding: 15px;
+  border-left: 5px solid #8B0000; /* Dark red - aggressive touch */
+  background: rgba(20, 20, 20, 0.9);
+  border-radius: 5px;
+  color: #ddd;
+  box-shadow: 0px 0px 10px #8B0000; /* Red glow */
+}
+
+/* Contact Section */
+.contact h2 {
+  color: #FFD700; /* Gold */
+  font-family: 'Impact', sans-serif;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.contact-list li {
+  padding: 5px 0;
+  font-size: 16px;
+  font-family: 'Arial Black', sans-serif; /* Bold text */
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #FFD700; /* Gold */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #8B0000; /* Dark red */
+  text-shadow: 0 0 10px #8B0000;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #000;
+  color: #FFD700;
+  border-radius: 0 0 10px 10px;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 0 20px #FFD700;
+}
