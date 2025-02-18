@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weinjay Cagadas - Resume</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+        }
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            background: #222;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            position: relative;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            background: #0073e6;
+            color: white;
+            border-radius: 10px 10px 0 0;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-right: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        section {
+            margin: 20px 0;
+            padding: 10px;
+            border-left: 5px solid #000000;
+            background: rgb(251, 255, 0);
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: url('https://cdn-icons-png.flaticon.com/512/25/25694.png') left center no-repeat;
+            background-size: 15px;
+            padding-left: 25px;
+            margin-bottom: 5px;
+        }
+        .contact {
+            display: flex;
+            align-items: center;
+        }
+        .contact img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .contact p {
+            margin: 5px 0;
+        }
+        .contact-image {
+            display: block;
+            margin: 20px auto;
+            width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #e60000;
+            color: white;
+            border-radius: 0 0 10px 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weinjay Cagadas</h1>
+            <p>Certified NC2 Holder</p>
+        </header>
+        <section>
+          <img src="prof.jpg" alt="Profile Picture" class="profile-pic">
+            <h2>About Me</h2>
+            <p>Hello! My name is Weinjay Cagadas. I'm currently a Grade 12 student at Sta. Lucia High School. As a dedicated and ambitious student, I have cultivated a strong foundation in both academic and extracurricular activities.</p>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>• Install and configure computer systems</li>
+                <li>• Set up, maintain, and repair computer networks and servers</li>
+                <li>• HTML, CSS coding</li>
+                <li>• Troubleshooting and Technical Support</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <p>Senior High School - Sta. Lucia High School (Pasig City) - 2023 to present</p>
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="mailto:weinjaycagadas28@gmail.com">weinjaycagadas28@gmail.com</a></li>
+                <li><strong>Phone:</strong> 0998-765-4321</li>
+                <li><strong>GitHub:</strong> <a href="#">github.com/weinjaycagadas</a></li>
+            </ul>
+        </section>                       
+        </section>
+        <section><h2>Layout and logo</h2>  <img src="layout.png" alt="Additional Image" class="contact-image">
+            <img src="2.jpg" alt="Additional Image" class="contact-image"></section>
+        <footer>
+            <p>&copy; 2025 Weinjay Cagadas | All Rights Reserved</p>
+        </footer>
+    
